@@ -31,6 +31,7 @@ public class Address implements Serializable{
 		this.firstLineOfAddress = firstLineOfAddress;
 		this.city = city;
 		this.postCode = postCode;
+		System.out.println("inside address sysout");
 	}
 	
 	public String getFirstLineOfAddress() {
